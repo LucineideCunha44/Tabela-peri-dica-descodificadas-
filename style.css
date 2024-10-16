@@ -1,0 +1,44 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 20px;
+}
+table {
+    border-collapse: collapse;
+    width: auto;
+}
+td {
+    border: 1px solid #999;
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 12px;
+    background-color: #fff;
+    position: relative;
+}
+.element-symbol {
+    font-size: 18px;
+    font-weight: bold;
+}
+.element-number {
+    font-size: 10px;
+    position: absolute;
+    top: 5px;
+    right: 5px;
+}
+.element-name {
+    font-size: 8px;
+}
+.group1 { background-color: #ffcccb; }
+.group2 { background-color: #add8e6; }
+.transition-metal { background-color: #f0e68c; }
+.metalloid { background-color: #dda0dd; }
+.halogen { background-color: #ffb6c1; }
+.noble-gas { background-color: #d3d3d3; }
+.lanthanide { background-color: #ffe4b5; }
+.actinide { background-color: #ffdead; }
